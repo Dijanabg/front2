@@ -1,0 +1,11 @@
+.zad7-container{
+    text-align: left;
+}
+.text-container{
+    border: 1px blue solid;
+    border-left: none;
+}
+.logo{
+    width: 200px;
+    height: 300px;
+}

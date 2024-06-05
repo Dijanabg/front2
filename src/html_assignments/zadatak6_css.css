@@ -1,0 +1,38 @@
+.container-line{
+    font-size: 17px;
+    text-align: left;
+    color: rgb(74, 58, 58);
+    margin-right: 180px;
+    margin-bottom: 200px;
+    border-left: 3px solid rgb(35, 112, 222);
+    border-right: 3px solid rgb(35, 112, 222);
+    height: 620px;
+    padding: 0px 0px 0px 10px;
+}
+.container-line p{
+    text-align: left;
+    font-weight: 600;
+    color: rgb(99, 77, 77);
+}
+.container-line span{
+    font-weight: bold;
+    color: rgb(41, 33, 33);
+} */
+a:link {
+    color: rgb(190, 47, 226);
+  }
+  
+  /* visited link */
+a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 

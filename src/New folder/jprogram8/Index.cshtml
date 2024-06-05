@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Maksimalne temperature</h1><br />
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sifra</th>
+            <th>Naziv mesta</th>
+            <th>Max temperatura</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Mesto</td>
+                <td>@item.NazivMesta</td>
+                <td>@item.MaxTemp</td>
+            </tr>
+        }
+    </tbody>
+</table>

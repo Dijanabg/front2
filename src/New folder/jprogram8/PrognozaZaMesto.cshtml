@@ -1,0 +1,46 @@
+﻿@model B18.Models.VremenskaPrognoza
+@{
+    ViewData["Title"] = "Prognoza za Mesto";
+}
+
+<div class="text-center">
+    <h6 class="display-4">Prognoza</h6><br />
+</div>
+
+<form method="get" asp-action="PrognozaZaMesto">
+    <div class="form-group">
+        <label for="mesto">Mesto:</label>
+        <select id="mesto" name="mesto" class="form-control" asp-items="ViewBag.Mesta"></select>
+    </div>
+    <button type="submit" class="btn btn-primary">Prikaži</button>
+</form>
+
+@if (Model != null)
+{
+    <div>
+        <h2>@Model.NazivMesta</h2>
+        <p>Sifra mesta: @Model.Mesto</p>
+        <p>Naziv mesta: @Model.NazivMesta</p>
+        <p>Min temperatura: @Model.MinTemp</p>
+        <p>Max temperatura: @Model.MaxTemp</p>
+        <p>
+            @if (Model.Vreme == "Ведро")
+            {
+                <img src="~/images/Vedro.png" alt="Vedro" />
+            }
+            else if (Model.Vreme == "Облачно")
+            {
+                <img src="~/images/Oblacno.png" alt="Oblačno" />
+            }
+            else if (Model.Vreme == "Киша")
+            {
+                <img src="~/images/Kisovito.png" alt="Kiša" />
+            }
+            else if (Model.Vreme == "Снег")
+            {
+                <img src="~/images/Snezno.png" alt="Sneg" />
+            }
+        </p>
+    </div>
+}
+

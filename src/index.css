@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* Stiliziranje glavnog kontejnera kalkulatora */
+.calculator {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Stiliziranje displaya */
+.calculator input[type="text"] {
+  width: calc(100% - 20px);
+  margin: 0 0 10px;
+  padding: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px;
+  text-align: right;
+}
+
+/* Stiliziranje redaka s dugmadima */
+.calculator div:last-child {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Stiliziranje dugmadi */
+.calculator button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #5c0808;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calculator button:hover {
+  background-color: #e0e0e0;
+}
+
+.calculator button:active {
+  background-color: #d0d0d0;
+}

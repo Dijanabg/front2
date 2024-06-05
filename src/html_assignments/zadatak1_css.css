@@ -1,0 +1,17 @@
+.Tokyo_pasus{
+    text-align: left;
+    text-indent: 15px;
+    background-color: rgb(220, 149, 220);
+}
+.Tokyo_span{
+    color: red;
+}
+.slikica{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height : 400px;
+        width: 500px;
+        padding: 10px;
+        border: 1px solid black;
+}

@@ -1,0 +1,27 @@
+.zad_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.zad_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    
+}
+.name{
+    background: yellow;
+}
+.zad_container form{
+    background: yellow;
+}
+.z4_h2 {
+    color: black;
+}
+.z4_p {
+    background-color: transparent;
+    color: firebrick;
+    font-weight: bold;
+    text-align: center;
+}
+

@@ -1,0 +1,50 @@
+.poem-container{
+    text-align: center;
+}
+.poem-title{
+    display: block;
+    text-align: center;
+}
+.poem{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  align-items: center; /*Centriranje po vertikali */
+  justify-content: center; /* Centriranje po horizontali */
+  
+}
+.poem pre{
+  border: 2px solid black;
+  text-align: center;
+}
+.poem-item{
+  height: 90%; /* Slika zauzima 100% visine roditeljskog elementa */
+  width: auto;
+}
+.pesnik{
+  text-align: center;
+}
+.pesnik:link {
+    color: rgb(190, 47, 226);
+    text-decoration: none;
+}
+  
+  /* visited link */
+.pesnik:visited {
+    color: green;
+}
+   
+  /* mouse over link */
+.pesnik:hover {
+    color: rgb(212, 25, 25);
+}
+  
+  /* selected link */
+.pesnik:active {
+    color: blue;
+}
+.poem-name{
+    margin-left: 5rem;
+}

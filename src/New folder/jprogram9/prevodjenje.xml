@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prevodjenje>
+	<cirilicaULatinicu>
+		<cirilicniTekst>текст на ћирилици</cirilicniTekst>
+	</cirilicaULatinicu>
+	<latinicaUCirilicu>
+		<latinicniTekst>tekst na latinici</latinicniTekst>
+	</latinicaUCirilicu>
+</prevodjenje>
